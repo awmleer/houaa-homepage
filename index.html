@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>猴啊</title>
+  <!--<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>-->
+  <link href="https://cdn.bootcss.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcss.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/flexslider.css" rel="stylesheet" >
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/queries.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <script src="src/sweet-alert.js"></script>
+  <link href="src/sweet-alert.css" rel="stylesheet">
+  <script>
+    function myAlert()
+    {swal({
+      title: "稍等一下",
+      text: "模块正在建设中，马上上线！",
+      imageUrl: "../img/houaa-green.png",
+      imageSize: "40x40",
+    });}
+  </script>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body id="top">
+<header id="home">
+  <nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+          <nav class="pull">
+            <ul class="top-nav">
+              <li><a href="#intro">团队简介 <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+              <li><a href="#features">能力描述 <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+              <li><a href="#responsive">核心目标 <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+              <li><a href="#portfolio">项目介绍 <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+              <li><a href="#team">团队介绍 <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+              <li><a href="#contact">联系我们 <span class="indicator"><i class="fa fa-angle-right"></i></span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-right navicon">
+          <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center inner">
+          <h1 class="animated fadeInDown">HOUAA<span>&nbsp;猴啊</span></h1>
+          <p class="animated fadeInUp delay-05s">我们是一个来自<em>&nbsp;浙江大学&nbsp;</em>的开发团队</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <a href="#portfolio" class="learn-more-btn">了解我们的作品</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</header>
+<section class="intro text-center section-padding" id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 wp1">
+        <h1 class="arrow">团队构成和业务概况</h1>
+        <p>团队成员全部来自 <a href="http://www.zju.edu.cn/">浙江大学</a>。由 <a href="http://www.itper.org/index.php/Index/viewPost/id/1">竺可桢学院创新与创业管理强化班</a>、<a href="http://www.cs.zju.edu.cn/chinese/redir.php?catalog_id=102871">计算机科学与技术</a>、<a href="http://www.oldspa.zju.edu.cn/zecms/ru/c0/2/Cmscontent/201404/19.htm">公共事业管理</a>、<a href="http://www.idi.zju.edu.cn/?page_id=12">国际设计研究院设计创新班</a>、<a href="http://www.cls.zju.edu.cn/cn/redir.php?catalog_id=116609">生命科学/技术</a> 等专业的同学构成。通过和 <a href="https://www.dingtalk.com/">阿里钉钉</a> 的深度合作，我们致力于为全国高校学生打造集 <a href="#problem">在线协作</a>、<a href="#problem">定制化家教/实习</a>、<a href="#problem">行政信息推送</a>、<a href="#problem">基于社群的优质工具分享</a> 等模块在内的专业一站式校园生活解决方案，构建校园学生服务生态闭环。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="features text-center section-padding" id="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="arrow">心怀热爱，想你所想</h1>
+        <div class="features-wrapper">
+          <div class="col-md-4 wp2">
+            <div class="icon">
+              <i class="icon-1"></i>
+            </div>
+            <h2>数字化设计</h2>
+            <p>团队成员兼具多项核心数字化设计能力，可以熟练进行平面设计、产品设计、UI设计、3D动态视觉设计、数字可视化设计，并有较丰富的实践经验。团队数成员受IDI专业训练，斩获包括iF、浙江大学本科生荣誉品设计大赛等众多奖项。</p>
+          </div>
+          <div class="col-md-4 wp2 delay-05s">
+            <div class="icon">
+              <i class="icon-2"></i>
+            </div>
+            <h2>移动应用开发</h2>
+            <p>团队有丰富的web开发经验。后端技术栈包括Python、Django、node.js、flask，前端技术栈包括angular、typescript、vue、bootstrap、ng-zorro、sass
+              ，团队在混合app方向也有深入的研究，包括ionic1&2、nativescript、electron。</p>
+          </div>
+          <div class="col-md-4 wp2 delay-1s">
+            <div class="icon">
+              <i class="icon-3"></i>
+            </div>
+            <h2>原创解决方案</h2>
+            <p>浙江大学竺可桢学院创新与创业管理强化班（ITP）多年团队积淀，掌握全流程团队协作创意管理和实现能力。深入浙大生活的点滴，挖掘真正的痛点，从生活中来到生活中去。</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="text-center" id="responsive">
+  <div class="container-fluid nopadding responsive-services">
+    <div class="wrapper">
+      <div class="iphone">
+        <div class="wp3"></div>
+      </div>
+      <div class="fluid-white"></div>
+    </div>
+    <div class="container designs">
+      <div class="row">
+        <div class="col-md-5 col-md-offset-7">
+          <div id="servicesSlider">
+            <ul class="slides">
+              <li>
+                <h1 class="arrow">基于大数据的信息定制</h1>
+                <p>信息爆炸时代，缺的并不是信息，是经过筛选的合适的信息。我们致力于推动信息服务3.0——基于用户自定义筛选器和基于语义分析机器学习的用户喜好程度分析和主动推送服务。</p>
+                <p>
+                  让我们设想，每家企业一旦发布针对高校大学生的实习信息，每个设置了相关标签的学生就能第一时间收到信息推送。在每个用户判断信息和自身要求的相关程度的相关性过程中，逐渐的自动优化用户关心的实习内容信息，从而实现跟精准的推送。 </p>
+                <p>这就是我们在做的事。</p>
+              </li>
+              <li>
+                <h1 class="arrow">基于钉钉的社群化产品</h1>
+                <p>钉钉是一款基于社群的企业/组织管理工具。 </p>
+                <p>通过钉钉的开放接口，让校园生活中各种协作场景变得简单。小组作业有人没有按时提交？一个DING，自动电话找人。了解同社团的大家喜欢什么工具和网站？我们为你自动生成列表。收到一条重要的行政消息想要提醒朋友？一键转发附带对方免费短信提醒。 </p>
+                <p>我们致力于让团队在学习工作中保持专注和高效，深入了解用户需求，让团队协作如同个人工作一般轻松和无间。</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="swag text-center" id="problem">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>校园生活的感受很多<span>但是 <em>方便</em> 一定要是其中一个</span></h1>
+        <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="portfolio text-center section-padding" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div id="portfolioSlider">
+        <ul class="slides">
+          <li>
+            <div class="col-md-4 wp4">
+              <div class="overlay-effect effects clearfix">
+                <div class="img">
+                  <img src="img/portfolio-01.jpg" alt="Portfolio Item">
+                  <div class="overlay">
+                    <a href="javascript:myAlert()" class="expand"><i class="fa fa-search"></i><br>查看详情</a>
+                    <a class="close-overlay hidden">x</a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="project">在线协作笔记</h2>
+              <div class="proj_intro">
+                <p>老师上课讲的太快怎么办？大佬笔记借不到怎么办？下课小组作业协作太麻烦怎么办？</p><p>我们调研了涵盖“项目管理”、“在线文档”，“UI交互”、“文件管理”等大类的30余种协作工具，让我们来给你答案！</p>
+              </div>
+            </div>
+            <div class="col-md-4 wp4 delay-05s">
+              <div class="overlay-effect effects clearfix">
+                <div class="img">
+                  <img src="img/portfolio-02.jpg" alt="Portfolio Item">
+                  <div class="overlay">
+                    <a href="javascript:myAlert()" class="expand"><i class="fa fa-search"></i><br>查看详情</a>
+                    <a class="close-overlay hidden">x</a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="project">定制化家教</h2>
+              <div class="proj_intro">
+                <p>曾经一个老师问我，你家教工资如何？我说一小时60，很惭愧。</p><p>有许多家长愿意以非常高的报酬聘请家教，问题就在于，怎么样让真正有需求的家长找到真正有能力的老师。</p>
+              </div>
+            </div>
+            <div class="col-md-4 wp4 delay-1s">
+              <div class="overlay-effect effects clearfix">
+                <div class="img">
+                  <img src="img/portfolio-03.jpg" alt="Portfolio Item">
+                  <div class="overlay">
+                    <a href="javascript:myAlert()" class="expand"><i class="fa fa-search"></i><br>查看详情</a>
+                    <a class="close-overlay hidden">x</a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="project">定制化实习</h2>
+              <div class="proj_intro">
+                <p>忘掉找实习！通过钉钉企业平台和我们专门为企业端开发的实习发布工具，让你关心的实习信息主动找上你！</p>
+                <p>更有各种趋势分析和一键云简历投递，让你看到更广阔的企业天地。</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="col-md-4 wp4">
+              <div class="overlay-effect effects clearfix">
+                <div class="img">
+                  <img src="img/portfolio-04.jpg" alt="Portfolio Item">
+                  <div class="overlay">
+                    <a href="javascript:myAlert()" class="expand"><i class="fa fa-search"></i><br>查看详情</a>
+                    <a class="close-overlay hidden">x</a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="project">行政信息推送</h2>
+              <div class="proj_intro">
+                <p>你是否还在担心错过奖学金申请的时间？担心放假通知来得太慢？担心错过一轮选课又选不了J类？</p>
+                <p>我们希望通过搜罗全浙江大学校园网，为你推送你最关心的行政信息！</p>
+              </div>
+            </div>
+            <div class="col-md-4 wp4 delay-05s">
+              <div class="overlay-effect effects clearfix">
+                <div class="img">
+                  <img src="img/portfolio-05.jpg" alt="Portfolio Item">
+                  <div class="overlay">
+                    <a href="javascript:myAlert()" class="expand"><i class="fa fa-search"></i><br>查看详情</a>
+                    <a class="close-overlay hidden">x</a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="project">社群工具分享</h2>
+              <div class="proj_intro">
+                <p>有言曰：世界上并不缺少好工具，缺的是一个分享好工具的平台。</p>
+                <p>有言曰：独乐乐不如众乐乐，和你的朋友们分享你的收藏，看看大家都喜欢什么效率工具！</p>
+              </div>
+            </div>
+            <div class="col-md-4 wp4 delay-1s">
+              <div class="overlay-effect effects clearfix">
+                <div class="img">
+                  <img src="img/portfolio-06.jpg" alt="Portfolio Item">
+                  <div class="overlay">
+                    <a href="javascript:myAlert()" class="expand"><i class="fa fa-search"></i><br>查看详情</a>
+                    <a class="close-overlay hidden">x</a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="project">敬请期待……</h2>
+              <div class="proj_intro">
+                <p>我们在不断发现，只为给你打造快乐轻松的大学生活环境！</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="ignite-cta text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="#home" class="ignite-btn">为了更快乐的大学生活</a>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="team text-center section-padding" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="arrow">脚踏实地，仰望星空</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="team-wrapper">
+        <div id="teamSlider">
+          <ul class="slides">
+            <li>
+              <div class="col-md-4 wp5">
+                <img src="img/team-01.png" alt="Team Member">
+                <h2>庄心昊</h2>
+                <p>团队负责人，项目经理。生物科学专业，浙大创新与创业管理强化班。曾担任过多个大型工作团队负责人，团队管理经验丰富。具有多年平面设计和程序设计经验，有个人独立开发的微信小程序。</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-wechat"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-4 wp5 delay-05s">
+                <img src="img/team-02.png" alt="Team Member">
+                <h2>朱仕娅</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-wechat"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 wp5 delay-1s">
+                <img src="img/team-03.png" alt="Team Member">
+                <h2>郝广博</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-wechat"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="col-md-4 wp5">
+                <img src="img/team-01.png" alt="Team Member">
+                <h2>Jon Snow</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-wechat"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 wp5 delay-05s">
+                <img src="img/team-02.png" alt="Team Member">
+                <h2>Cersei Lannister</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-wechat"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 wp5 delay-1s">
+                <img src="img/team-03.png" alt="Team Member">
+                <h2>Jamie Lannister</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-wechat"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="col-md-4 wp5">
+                <img src="img/team-01.png" alt="Team Member">
+                <h2>Jon Snow</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-wechat"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 wp5 delay-05s">
+                <img src="img/team-02.png" alt="Team Member">
+                <h2>Cersei Lannister</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-wechat"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4 wp5 delay-1s">
+                <img src="img/team-03.png" alt="Team Member">
+                <h2>Jamie Lannister</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                <div class="social">
+                  <ul class="social-buttons">
+                    <li><a href="#" class="social-btn"><i class="fa fa-wechat"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-qq"></i></a></li>
+                    <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="subscribe text-center">
+  <div class="container">
+    <h1><i class="fa fa-paper-plane"></i><span>有什么想对我们说的吗？</span></h1>
+    <form action="#">
+      <input type="text" name="" value="" placeholder="告诉我们你的建议，我们会做得更好！" required>
+      <input type="submit" name="" value="发 送">
+    </form>
+  </div>
+</section>
+<section class="dark-bg text-center section-padding contact-wrap" id="contact">
+  <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="arrow">联系我们</h1>
+      </div>
+    </div>
+    <div class="row contact-details">
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <h2><i class="fa fa-map-marker"></i><span>办公地址</span></h2>
+          <p>杭州西湖区，浙江大学  310058</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <h2><i class="fa fa-mobile"></i><span>移动电话</span></h2>
+          <p>+86 - 188 6715 5792</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="light-box box-hover">
+          <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+          <p><a href="#">hello @ houaa.xyz</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="social-buttons">
+          <li><a href="#" class="social-btn"><i class="fa fa-wechat"></i></a></li>
+          <li><a href="#" class="social-btn"><i class="fa fa-qq"></i></a></li>
+          <li><a href="#" class="social-btn"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="legals">
+          <li><a href="#">使用条款和说明</a></li>
+          <li><a href="#">法律信息</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 credit">
+        <p>POWERED BY <a href="#home"><em>HOUAA.XYZ</em></a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/waypoints.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/modernizr.js"></script>
+</body>
+</html>
